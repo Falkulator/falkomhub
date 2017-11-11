@@ -33,6 +33,21 @@
     } else {
       $("#mainNav").removeClass("navbar-shrink");
     }
+    var workScroll = $("#work").offset().top - $(window).scrollTop()
+    if (workScroll < 250 && workScroll > -450) {
+      $("#work-text").addClass("active-part");
+    }
+    else {
+      $("#work-text").removeClass("active-part");
+    }
+    var mainScroll = $("#intro-body").offset().top - $(window).scrollTop()
+    if (mainScroll < 150 && mainScroll > -450) {
+      $("#main-text").addClass("active-part");
+    }
+    else {
+      $("#main-text").removeClass("active-part");
+    }
+
   });
 
 })(jQuery); // End of use strict
