@@ -59,13 +59,18 @@ a {
   }
 }
 
+.col-lg-8 {
+  padding: 30px;
+}
+
+
 .active-part {
   -webkit-transition: background 1s ease-in-out;
   -moz-transition: background 1s ease-in-out;
   transition: background 1s ease-in-out;
   outline: none;
   background-color: black;
-  padding: 30px;
+  
   border-radius: 25px;
   opacity: 0.9;
 }
