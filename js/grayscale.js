@@ -34,7 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
     var workScroll = $("#work").offset().top - $(window).scrollTop()
-    if (workScroll < 250 && workScroll > -450) {
+    if (workScroll < 350 && workScroll > -450) {
       $("#work-text").addClass("active-part");
     }
     else {
@@ -50,8 +50,12 @@
 
   });
 
-})(jQuery); // End of use strict
 
+
+})(jQuery); // End of use strict
+$( document ).ready(function() {
+  $("#main-text").addClass("active-part");
+});
 // Google Maps Scripts
 var map = null;
 var mlatitude = 41.950425;
