@@ -30,8 +30,14 @@
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+
+      $("#mainLogo").removeClass("inactive-logo");
+      $("#mainLogo").addClass("active-logo");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+
+      $("#mainLogo").addClass("inactive-logo");
+      $("#mainLogo").removeClass("active-logo");
     }
     var workScroll = $("#work").offset().top - $(window).scrollTop()
     if (workScroll < 350 && workScroll > -450) {

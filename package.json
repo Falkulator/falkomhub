@@ -16,6 +16,9 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
         "email": "feedback@startbootstrap.com"
     },
+    "scripts": {
+        "gulp": "gulp"
+    },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
@@ -28,6 +31,7 @@
     "dependencies": {
         "bootstrap": "^4.0.0-beta",
         "font-awesome": "4.7.0",
+        "has-gulplog": "^0.1.0",
         "jquery": "^3.2.1",
         "jquery.easing": "^1.4.1",
         "popper.js": "1.12.3"
@@ -39,6 +43,7 @@
         "gulp-header": "1.8.9",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
+        "gulp-uglify": "3.0.0",
+        "gulp-util": "^3.0.8"
     }
 }

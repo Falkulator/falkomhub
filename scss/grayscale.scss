@@ -75,6 +75,22 @@ a {
   opacity: 0.9;
 }
 
+.inactive-logo {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+  opacity: 0.0;
+}
+
+.active-logo {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+  opacity: 1.0;
+}
+
 .col-lg-8 {
   -webkit-transition: background 1s ease-in-out;
   -moz-transition: background 1s ease-in-out;
