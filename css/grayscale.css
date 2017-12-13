@@ -58,6 +58,13 @@ a {
   border-radius: 25px;
   opacity: 0.9; }
 
+#bigLogo {
+  height: 150px; }
+
+@media (max-width: 768px) {
+  #bigLogo {
+    height: 120px; } }
+
 .inactive-logo {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
