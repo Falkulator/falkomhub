@@ -39,15 +39,17 @@
       $("#mainLogo").addClass("inactive-logo");
       $("#mainLogo").removeClass("active-logo");
     }
-    var workScroll = $("#work").offset().top - $(window).scrollTop()
+    var winScroll = $(window).scrollTop();
+    var workScroll = $("#work").offset().top - winScroll;
     if (workScroll < 350 && workScroll > -450) {
       $("#work-text").addClass("active-part");
     }
     else {
       $("#work-text").removeClass("active-part");
     }
-    var mainScroll = $("#intro-body").offset().top - $(window).scrollTop()
-    if (mainScroll < 150 && mainScroll > -450) {
+    var mainScroll = $("#intro-body").offset().top - winScroll;
+    console.log(mainScroll)
+    if (mainScroll < 250 && mainScroll > -450) {
       $("#main-text").addClass("active-part");
     }
     else {

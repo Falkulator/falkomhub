@@ -63,7 +63,7 @@ a {
 
 @media (max-width: 768px) {
   #bigLogo {
-    height: 94px; } }
+    height: 86px; } }
 
 .inactive-logo {
   -webkit-transition: opacity 1s ease-in-out;
